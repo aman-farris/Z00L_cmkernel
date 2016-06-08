@@ -378,6 +378,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-implicit-function-declaration \
 		   -Wno-unused-value \
 		   -Wno-format-security \
+		   -Wno-unused-value \
 		   -fno-delete-null-pointer-checks
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
